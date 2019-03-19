@@ -1,0 +1,9 @@
+c:\users\james\documents\visual studio 2017\Projects\Hangfire2\Hangfire2\bin\Debug\netcoreapp1.1\Hangfire2.deps.json
+c:\users\james\documents\visual studio 2017\Projects\Hangfire2\Hangfire2\bin\Debug\netcoreapp1.1\Hangfire2.runtimeconfig.json
+c:\users\james\documents\visual studio 2017\Projects\Hangfire2\Hangfire2\bin\Debug\netcoreapp1.1\Hangfire2.runtimeconfig.dev.json
+c:\users\james\documents\visual studio 2017\Projects\Hangfire2\Hangfire2\bin\Debug\netcoreapp1.1\Hangfire2.dll
+c:\users\james\documents\visual studio 2017\Projects\Hangfire2\Hangfire2\obj\Debug\netcoreapp1.1\Hangfire2.AssemblyInfo.cs
+c:\users\james\documents\visual studio 2017\Projects\Hangfire2\Hangfire2\bin\Debug\netcoreapp1.1\Hangfire2.pdb
+c:\users\james\documents\visual studio 2017\Projects\Hangfire2\Hangfire2\obj\Debug\netcoreapp1.1\Hangfire2.csprojResolveAssemblyReference.cache
+c:\users\james\documents\visual studio 2017\Projects\Hangfire2\Hangfire2\obj\Debug\netcoreapp1.1\Hangfire2.dll
+c:\users\james\documents\visual studio 2017\Projects\Hangfire2\Hangfire2\obj\Debug\netcoreapp1.1\Hangfire2.pdb
