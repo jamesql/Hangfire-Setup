@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -8,6 +8,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Hangfire;
+using Hangfire.Common;
+using Hangfire.Client;
 
 namespace Hangfire2
 {
@@ -56,7 +58,6 @@ namespace Hangfire2
             // Enables hangfire dashboard (/hangfire)
             app.UseHangfireDashboard();
             app.UseHangfireServer();
-
 
             app.UseStaticFiles();
 
