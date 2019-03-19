@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -11,6 +11,8 @@ namespace Hangfire2
     {
         public static void Main(string[] args)
         {
+            HangfireConfig cfg = new HangfireConfig();
+
             var host = new WebHostBuilder()
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
