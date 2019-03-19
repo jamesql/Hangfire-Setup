@@ -10,7 +10,7 @@ namespace Hangfire2
 {
     public class HangfireConfig
     {
-        Methods pkg = new Methods();
+        private Methods pkg = new Methods();
         
         public HangfireConfig()
         {
