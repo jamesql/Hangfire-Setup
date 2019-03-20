@@ -1,10 +1,4 @@
 using Hangfire;
-using Hangfire.Common;
-using Hangfire.SqlServer;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Hangfire2
 {
@@ -14,20 +8,19 @@ namespace Hangfire2
         
         public HangfireConfig()
         {
+            GlobalConfiguration.Configuration.UseSqlServerStorage("Server=localhost\\SQLEXPRESS;Database=master;Trusted_Connection=True;");
             RCJMInit();
             FNFMInit();
         }
 
         private void RCJMInit()
         {
-            GlobalConfiguration.Configuration.UseSqlServerStorage("Server=localhost\\SQLEXPRESS;Database=master;Trusted_Connection=True;");
             RecurringJob.AddOrUpdate(() => pkg.Log("Test RC Job"), Cron.Minutely());
         }
 
         private void FNFMInit()
         {
-
+            BackgroundJob.Enqueue(() => pkg.Log("Test BG Job"));
         }
-
     }
 }
